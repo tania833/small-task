@@ -1,0 +1,31 @@
+.searchForm {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.formInput {
+    padding: 15px;
+    box-shadow: none;
+    border: 1px solid #0a0a0a;
+    border-radius: 3px 0 0 3px;
+    border-right-width: 0;
+    font-size: 20px;
+    width: 400px;
+}
+
+.formButton {
+    box-shadow: none;
+    border: 1px solid #0a0a0a;
+    border-radius: 0 3px 3px 0;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 420px) {
+    .formInput {
+        max-width: calc(100% - 20px);
+    }
+
+}
